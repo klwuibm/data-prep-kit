@@ -6,7 +6,7 @@ python3 -u -m dpk_text_encoder.ray.runtime \
 --text_encoder_output_embeddings_column_name "embeddings" \
 --text_encoder_lanceDB_batch_size 262144 \
 --text_encoder_embedding_batch_size 8 \
---text_encoder_embeddings_max_num_chunks 10 \
+--text_encoder_embeddings_in_lanceDB True \
 --text_encoder_model_max_seq_length 2048 \
 --text_encoder_lanceDB_table_name "math_hard_test_r2" \
 --text_encoder_lanceDB_fragments_json_folder "cos-optimal-llm-pile/bluepile-processing/rel_10/embeddings/lance/math_hard_test_r2_fragments_json/" \
